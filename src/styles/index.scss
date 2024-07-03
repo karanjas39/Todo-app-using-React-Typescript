@@ -1,0 +1,27 @@
+@import "./colors";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: $bg;
+  color: $sc;
+}
+
+button {
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: $pc;
+  color: $bg;
+  cursor: pointer;
+  transition: opacity 0.5s ease-in-out;
+  &:hover {
+    opacity: 0.8;
+  }
+}
