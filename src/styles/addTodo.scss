@@ -1,0 +1,21 @@
+@import "./colors";
+
+.addTodo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px !important;
+
+  > label {
+    font-weight: bold;
+    color: $pc;
+  }
+  > input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: $sc;
+    color: $bg;
+    margin-bottom: 10px;
+    outline-color: $pc;
+  }
+}
